@@ -1,0 +1,27 @@
+{
+  "name": "@the-w1zard/rift_maelstrom",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "^24.0.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^6.0.0"
+  },
+  "dependencies": {
+    "@the-w1zard/alias_types": "workspace:*",
+    "@the-w1zard/dx": "workspace:*"
+  }
+}

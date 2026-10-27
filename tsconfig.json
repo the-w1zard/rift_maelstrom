@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+  "lib": ["DOM", "DOM.Iterable", "ES2022", "ES2021.WeakRef"],
+
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "declaration": true,
+  "allowJs": true,
+  "strict": true,
+  "isolatedModules": false,
+  "skipLibCheck": true,
+  "verbatimModuleSyntax": true,
+    "types":[
+      "Bun",
+     "node",
+     "@the-w1zard/alias_types"
+    ]
+  },
+  "include": [
+    "**/*.ts"
+ ],
+  "exclude": ["node_modules", "dist"]
+}
